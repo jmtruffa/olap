@@ -91,8 +91,6 @@ Insert into variable_macro (NombreVarmacro,descripcionvarmacro,periodicidadBase)
 Insert into variable_macro (NombreVarmacro,descripcionvarmacro,periodicidadBase) Values ('MEP','Dolar MEP','diaria');
 
 
-SELECT * FROM TMP_VARS_MACRO ORDER BY VAR,DATE
-
 -- Crea la tabla fact valores_car_macro
 
 CREATE TABLE valores_var_macro (
